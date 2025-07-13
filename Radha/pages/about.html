@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - QGen</title>
+  <link rel="stylesheet" href="../aseets/css/bootstrap.css" />
+  <link rel="stylesheet" href="../aseets/css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light w-100" style="padding: 0;">
+  <div class="container-fluid">
+      <img src="../aseets/img/sql-server-icon-png-29.png" alt="QGen Logo" width="25" height="25" />
+      <a class="navbar-brand" href="#">QGen</a>
+      <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+  aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Offcanvas menu (right-side slide) -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">QGen Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="features.html">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tutorial.html">Tutorial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  <!-- About Section -->
+  <section class="container mt-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">About QGen</h2>
+      <p class="text-muted">We simplify the way SQL queries are created, optimized, and understood.</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h4>Our Mission</h4>
+        <p>To empower developers, analysts, and non-technical users by turning natural language into accurate, efficient SQL queries—instantly and reliably.</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Our Goal</h4>
+        <p>To make data accessible to everyone, eliminate manual SQL errors, and accelerate data workflows through intelligent automation.</p>
+      </div>
+    </div>
+
+    <div class="mt-5">
+      <h4>About the Creator</h4>
+      <p>
+        QGen was built by <strong>Prajyot Chandrapatle</strong>, a passionate developer with a vision to simplify how people interact with databases. The tool combines AI, intuitive design, and real-world SQL expertise to serve users from students to seasoned professionals.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="container mt-5 mb-5">
+    <div class="text-center mb-4">
+      <h2>Contact Us</h2>
+      <p class="text-muted">Have questions or feedback? We'd love to hear from you.</p>
+    </div>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Your Name" required />
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com" required />
+      </div>
+      <div class="col-12">
+        <label for="inputMessage" class="form-label">Message</label>
+        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Write your message here..." required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-primary px-4">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer style="background-color: #343a40; color: #fff; padding: 30px 0; text-align: center; width: 100%;">
+    <div class="container-fluid px-0">
+      <div class="row justify-content-center text-center text-md-start" style="margin: 0; padding: 0 20px;">
+        <div class="col-md-4 mb-3 d-flex flex-column align-items-center align-items-md-start">
+          <img src="../aseets/img/sql-server-icon-png-29.png" alt="QGen Logo" width="50" style="margin-bottom: 10px;">
+          <h5>QGen</h5>
+          <p style="font-size: 14px;">Effortless SQL Generation for Everyone</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled" style="font-size: 14px;">
+            <li><a href="../index.html" style="color: #bbb; text-decoration: none;">Home</a></li>
+            <li><a href="features.html" style="color: #bbb; text-decoration: none;">Features</a></li>
+            <li><a href="about.html" style="color: #bbb; text-decoration: none;">About</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Contact</h6>
+          <p style="font-size: 14px;">Email: support@qgen.com</p>
+          <p style="font-size: 14px;">Phone: +91-123-456-7890</p>
+        </div>
+      </div>
+      <hr style="border-color: #555; margin: 20px auto; width: 90%;">
+      <p style="margin: 0; font-size: 13px;">&copy; 2025 QGen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../aseets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
